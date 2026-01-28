@@ -1,13 +1,23 @@
-
-.nav-item:hover{
+.nav-item:hover, .background{
     background-color:#31673f40;
 }
 
 .header {
     width: 100%;
     height: 300px;
-    background-image: url("./images/home-banner.jpg");
     background-size: cover;
+}
+
+.home{
+    background-image: url("./images/home-banner.jpg");
+}
+
+.about{
+    background-image: url("./images/about-us-banner.JPG");
+}
+
+.contact{
+    background-image: url("./images/contact-banner.jpg");
 }
 
 .heading-text{
@@ -16,6 +26,7 @@
 
 h1{
     font-size: 3rem;
+    font-family: "Rubik Dirt";
 }
 
 h2{
@@ -33,17 +44,13 @@ h2::before, h2::after{
 }
 
 @media (max-width: 768px) {
-    .cards {
+    .column-items {
         flex-direction: column;
         align-items: center;
     }
     p{
         font-size: small;
     }
-}
-
-.about-section{
-    background-color: #30474040;
 }
 
 p{
@@ -54,7 +61,5 @@ p{
     max-width: 500px;
 } 
 
-.modal-body{
-    background-color: #30474040;
-}
+
 
