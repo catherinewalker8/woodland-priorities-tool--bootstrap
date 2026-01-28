@@ -14,9 +14,47 @@
     background-color: #00000069;
 }
 
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
 h2::before, h2::after{
     content:"↟↟";
     font-size: 35px;
     padding: 10px;
+}
+
+.card:hover{
+    opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    p{
+        font-size: small;
+    }
+}
+
+.about-section{
+    background-color: #30474040;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.img-fluid{
+    max-width: 500px;
+} 
+
+.modal-body{
+    background-color: #30474040;
 }
 
